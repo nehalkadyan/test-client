@@ -10,7 +10,7 @@ function App() {
 
    useEffect(() => {
     const fetchUser = async()=> {
-      const res = await axios.get("http://localhost:4000/test");
+      const res = await axios.get("https://test-server-a6lg8n4x2-nehal-kadyans-projects.vercel.app/test");
 
       setUser(res.data);
     }
